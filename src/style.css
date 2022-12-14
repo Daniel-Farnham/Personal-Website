@@ -13,7 +13,7 @@ html, body {
 
 
 h1 {
-    font-size: 4rem; 
+    font-size: 6rem; 
     
     
 }
@@ -30,7 +30,7 @@ h1 {
 
 ul {
     opacity: 0; 
-    transition: all 3s linear; 
+    transition: all 2s linear; 
 }
 
 .nav li {
@@ -70,22 +70,18 @@ ul {
   }  
 } */
 .home-page {
-    display: grid; 
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 50% 50%;   
-    width: 800px;
-    height: 400px; 
+        
     position: absolute; 
     top: 20%; bottom: 10%; left: 10%; right: 10%; 
-    margin: 10%;
+    margin: auto 0;
     
   
     
 }
 
 .home-page h1 {
-    grid-column: 1 / span 2; 
-    margin: 0 auto; 
+    margin: auto 0; 
+    text-align: match-parent;
 }
 
 /*
